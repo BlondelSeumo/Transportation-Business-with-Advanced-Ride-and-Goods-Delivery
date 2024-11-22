@@ -1,0 +1,17 @@
+{
+    "success": true,
+    "message": "success",
+    "data":
+    {
+        "from_date": "5th Oct 2020",
+        "to_date": "11th Oct 2020",
+        "total_trips_count": 1,
+        "total_trip_kms": 14,
+        "total_earnings": 1073.44,
+        "total_cash_trip_amount": 1073.44,
+        "total_wallet_trip_amount": 0,
+        "total_cash_trip_count": 1,
+        "total_wallet_trip_count": 0,
+        "currency_symbol": "₹"
+    }
+}

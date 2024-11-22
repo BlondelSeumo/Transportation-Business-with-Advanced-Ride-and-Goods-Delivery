@@ -1,0 +1,25 @@
+{
+    "success": true,
+    "message": "online-success",
+    "data":
+    {
+        "id": 6,
+        "name": "dilipdk",
+        "email": "driver1@gmail.com",
+        "mobile": "8667259868",
+        "profile_picture": null,
+        "active": true,
+        "approve": true,
+        "available": false,
+        "uploaded_document": false,
+        "service_location_id": "48e861b5-8d4d-4281-807c-1cdd2a5fee3e",
+        "vehicle_type_id": "9ea6f9a0-6fd2-4962-9d81-645e6301096f",
+        "vehicle_type_name": "Mini",
+        "car_make": null,
+        "car_model": null,
+        "car_make_name": null,
+        "car_model_name": null,
+        "car_color": null,
+        "car_number": null
+    }
+}

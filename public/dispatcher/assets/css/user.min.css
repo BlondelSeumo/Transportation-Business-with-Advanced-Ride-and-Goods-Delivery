@@ -1,0 +1,238 @@
+.sidebar-contact {
+    position: absolute;
+    transition: 0.5s;
+}
+
+.toggle {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    cursor: pointer;
+    background: #fff;
+    color: #000;
+    border-radius: 10px;
+    top: 25px;
+    z-index: 9;
+    line-height: 30px;
+    box-shadow: 0px 0px 2px 2px #0000002e;
+}
+
+.toggle:before {
+    font-size: 15px;
+    color: #000;
+}
+
+.toggle.active:before {
+    content: "" !important;
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .sidebar-contact.active .toggle {
+        top: 0;
+        right: 0;
+        transform: translateY(0);
+    }
+}
+
+/* LEFT */
+
+.pulse.active {
+    animation: pulse-animation 2s infinite;
+}
+
+@keyframes pulse-animation {
+    0% {
+        box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.5);
+    }
+    100% {
+        box-shadow: 0 0 0 20px rgba(0, 0, 0, 0);
+    }
+}
+
+.left {
+    left: -625px;
+    min-width: 625px;
+}
+
+.left.active {
+    left: 0;
+}
+
+.left .toggle {
+    right: -50px;
+    top: 20px;
+    transition: 0.6s;
+}
+
+.left.active .toggle {
+    right: -15px;
+    top: 0;
+}
+
+.left .toggle:before {
+    content: "";
+}
+
+/* Right */
+.right {
+    right: -350px;
+}
+
+.right.active {
+    right: 0;
+}
+
+.right .toggle {
+    left: -45px;
+    transition: 0.6s;
+}
+
+.right.active .toggle {
+    left: -15px;
+}
+
+.right .toggle:before {
+    content: "<";
+}
+
+.notifi {
+    font-size: 12px;
+}
+
+.notifi i {
+    font-size: 32px;
+}
+
+.locat .form-select {
+    font-size: 12px;
+}
+
+.modal-dialog {
+    max-width: 1140px;
+}
+
+.book {
+    box-shadow: 5px 5px 10px rgb(199 199 199);
+    border: 1px solid #dee2e6;
+    transition: 0.3s ease-in-out;
+    margin-left: 5px;
+}
+
+.book:hover {
+    box-shadow: 0 0.5rem 1rem rgba(112, 112, 112, 0.15) !important;
+    margin-left: 0;
+}
+
+.addPackageBtn span.badge.bg-success {
+    padding: 7px 15px;
+    box-shadow: inset 5px 5px 6px 3px #00000036;
+    background-color: #2c7be5 !important;
+    color: #fff;
+}
+
+.chq-radio input[type="radio"] {
+    opacity: 0;
+    position: fixed;
+    width: 0;
+}
+
+.chq-radio label {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+}
+
+.chq-radio label:hover {
+    background-color: #ff9933;
+    color: #fff;
+}
+
+.chq-radio input[type="radio"]:focus + label {
+    border: 1px dashed #4b4b4b;
+}
+
+.chq-radio input[type="radio"]:checked + label {
+    background-color: #ff9933;
+    border: 1px solid #ff9933 !important;
+    color: #fff;
+}
+
+.animated-modal {
+    max-width: 550px !important;
+    border-radius: 4px !important;
+    overflow: hidden !important;
+    background: linear-gradient(45deg, #543093 32%, #d960ae 100%) !important;
+    transform: translateY(-80px) !important;
+    transition: all 0.5s !important;
+}
+
+.animated-modal * {
+    color: #fff;
+}
+
+.animated-modal h2,
+.animated-modal p {
+    transform: translateY(-40px);
+    opacity: 0;
+
+    transition-property: transform, opacity;
+    transition-duration: 0.3s;
+}
+
+/* Final state */
+.fancybox-slide--current .animated-modal,
+.fancybox-slide--current .animated-modal h2,
+.fancybox-slide--current .animated-modal p {
+    transform: translateY(0);
+    opacity: 1;
+
+    transition-duration: 0.3s;
+}
+
+/* Reveal content with different delays */
+.fancybox-slide--current .animated-modal h2 {
+    transition-delay: 0.1s;
+}
+
+.fancybox-slide--current .animated-modal p {
+    transition-delay: 0.4s;
+}
+
+.fancybox-slide--current .animated-modal p:first-of-type {
+    transition-delay: 0.2s;
+}
+
+#error .fancybox-close-small {
+    display: none;
+}
+
+li.page-item {
+    padding: 10px;
+    background: #fff;
+}
+
+a.page-link {
+    position: relative;
+    box-shadow: 2px 2px 2px 0px #00000021;
+    border: 1px solid #e8e8e8;
+    margin-left: -3px !important;
+    margin-top: -3px;
+    transition: 0.3s;
+}
+
+a.page-link:hover,
+.page-item.active .page-link {
+    box-shadow: none;
+    background-color: #ececec;
+    border: 1px solid #e8e8e8;
+    color: #777;
+    margin-left: 0px !important;
+    margin-top: 0px;
+}
+
+.pagination .page-item:first-child .page-item {
+    border-radius: 50%;
+}

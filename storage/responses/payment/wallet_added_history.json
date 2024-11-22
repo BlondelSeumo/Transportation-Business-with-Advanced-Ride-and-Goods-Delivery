@@ -1,0 +1,77 @@
+{
+    "success": true,
+    "message": "wallet_history_listed",
+    "wallet_balance": 5500,
+    "default_card_id": "cb26f413-3dcb-44e5-9976-c41d0547214b",
+    "currency_code": "INR",
+    "currency_symbol": "₹",
+    "wallet_history":
+    {
+        "data": [
+        {
+            "id": "ec102ac8-7ceb-4a9b-999f-8461933f814c",
+            "user_id": 15,
+            "card_id": "cb26f413-3dcb-44e5-9976-c41d0547214b",
+            "transaction_id": "nwz56dbv",
+            "amount": 1500,
+            "conversion": "INR-USD:1500-20.42",
+            "merchant": "nplustechnologies",
+            "remarks": "Money Deposited",
+            "is_credit": 1,
+            "created_at": "4th Sep 01:07 PM",
+            "updated_at": "4th Sep 01:07 PM"
+        },
+        {
+            "id": "5d08d769-21ac-4dc3-a56c-0ac0eef4b0c2",
+            "user_id": 15,
+            "card_id": "cb26f413-3dcb-44e5-9976-c41d0547214b",
+            "transaction_id": "5qmad4pe",
+            "amount": 1500,
+            "conversion": "INR-USD:1500-20.42",
+            "merchant": "nplustechnologies",
+            "remarks": "Money Deposited",
+            "is_credit": 0,
+            "created_at": "4th Sep 12:53 PM",
+            "updated_at": "4th Sep 12:53 PM"
+        },
+        {
+            "id": "6be510e7-436d-4daf-a711-b3d17fb68452",
+            "user_id": 15,
+            "card_id": "cb26f413-3dcb-44e5-9976-c41d0547214b",
+            "transaction_id": "pd4hv6kh",
+            "amount": 1500,
+            "conversion": "INR-USD:1500-20.53",
+            "merchant": "nplustechnologies",
+            "remarks": null,
+            "is_credit": 0,
+            "created_at": "1st Sep 10:51 PM",
+            "updated_at": "1st Sep 10:51 PM"
+        },
+        {
+            "id": "01dc4bdd-154f-43b9-80d2-88de6354ff45",
+            "user_id": 15,
+            "card_id": "cb26f413-3dcb-44e5-9976-c41d0547214b",
+            "transaction_id": "0rncvw9n",
+            "amount": 1000,
+            "conversion": "INR-USD:1000-13.69",
+            "merchant": "nplustechnologies",
+            "remarks": null,
+            "is_credit": 0,
+            "created_at": "1st Sep 10:45 PM",
+            "updated_at": "1st Sep 10:45 PM"
+        }],
+        "meta":
+        {
+            "pagination":
+            {
+                "total": 4,
+                "count": 4,
+                "per_page": 10,
+                "current_page": 1,
+                "total_pages": 1,
+                "links":
+                {}
+            }
+        }
+    }
+}

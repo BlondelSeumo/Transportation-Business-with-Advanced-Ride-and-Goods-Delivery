@@ -1,0 +1,52 @@
+{
+    "success": true,
+    "message": "success",
+    "data": [
+    {
+        "id": "b0a3a2ce-d248-4767-adea-ae2932731436",
+        "type_id": "9ea6f9a0-6fd2-4962-9d81-645e6301096f",
+        "name": "Mini",
+        "icon": null,
+        "capacity": 4,
+        "is_accept_share_ride": 0,
+        "active": 1,
+        "currency": "₹",
+        "unit": 2,
+        "unit_in_words": "Km",
+        "payment_type": [
+            "card",
+            "cash",
+            "wallet"
+        ],
+        "zoneTypePrice":
+        {
+            "data": [
+            {
+                "id": "11528694-90c4-42fb-bf3b-f571e3790d0f",
+                "type_id": "b0a3a2ce-d248-4767-adea-ae2932731436",
+                "price_type": 1,
+                "admin_commission_type": "percentage",
+                "admin_commission": "30",
+                "base_price": 5,
+                "price_per_distance": 5,
+                "base_distance": 5,
+                "price_per_time": 5,
+                "waiting_charge": 5,
+                "cancellation_fee": 5
+            },
+            {
+                "id": "e5953df8-2b98-459d-ad79-c27a185b7d13",
+                "type_id": "b0a3a2ce-d248-4767-adea-ae2932731436",
+                "price_type": 2,
+                "admin_commission_type": "percentage",
+                "admin_commission": "30",
+                "base_price": 5,
+                "price_per_distance": 5,
+                "base_distance": 9,
+                "price_per_time": 5,
+                "waiting_charge": 5,
+                "cancellation_fee": 5
+            }]
+        }
+    }]
+}

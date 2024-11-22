@@ -1,0 +1,75 @@
+{
+    "success": true,
+    "data":
+    {
+        "id": 6,
+        "name": "dilipdk",
+        "email": "driver1@gmail.com",
+        "mobile": "8667259868",
+        "profile_picture": null,
+        "active": false,
+        "approve": true,
+        "available": false,
+        "uploaded_document": false,
+        "service_location_id": "48e861b5-8d4d-4281-807c-1cdd2a5fee3e",
+        "vehicle_type_id": "9ea6f9a0-6fd2-4962-9d81-645e6301096f",
+        "vehicle_type_name": "Mini",
+        "car_make": null,
+        "car_model": null,
+        "car_make_name": null,
+        "car_model_name": null,
+        "car_color": null,
+        "car_number": null,
+        "onTripRequest":
+        {
+            "data":
+            {
+                "id": "068ecb7a-7198-4322-82b2-28c8e1c90f0a",
+                "request_number": "REQ_000002",
+                "is_later": 0,
+                "user_id": 14,
+                "trip_start_time": "19th Apr 11:54 AM",
+                "arrived_at": null,
+                "accepted_at": null,
+                "completed_at": null,
+                "is_driver_started": 0,
+                "is_driver_arrived": 0,
+                "is_trip_start": 0,
+                "is_completed": 0,
+                "is_cancelled": 0,
+                "cancel_method": "0",
+                "payment_opt": "1",
+                "is_paid": 0,
+                "user_rated": 0,
+                "driver_rated": 0,
+                "unit": "0",
+                "zone_type_id": "b0a3a2ce-d248-4767-adea-ae2932731436",
+                "vehicle_type_name": "Mini",
+                "pick_lat": 11.0797,
+                "pick_lng": 76.9997,
+                "drop_lat": 10.99693444,
+                "drop_lng": 76.9762592,
+                "pick_address": "gandhi puram",
+                "drop_address": "srp mills",
+                "userDetail":
+                {
+                    "data":
+                    {
+                        "id": 14,
+                        "name": "dilipdk",
+                        "last_name": null,
+                        "username": null,
+                        "email": "driver@gmail.com",
+                        "mobile": "8667241566",
+                        "profile_picture": null,
+                        "active": 1,
+                        "email_confirmed": 0,
+                        "mobile_confirmed": 1,
+                        "last_known_ip": "::1",
+                        "last_login_at": "2020-04-24 13:08:43"
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "success": true,
+    "message": "sos_list",
+    "data": [
+    {
+        "id": "e5962ff4-884c-40e9-b0fe-bc11d85cdcac",
+        "name": "dilip",
+        "number": "8667241567",
+        "user_type": "mobile-users",
+        "created_by": 15
+    },
+    {
+        "id": "103f9ea7-ad6c-47b4-bb4b-30d82f301926",
+        "name": "police",
+        "number": "100",
+        "user_type": "admin",
+        "created_by": null
+    }]
+}

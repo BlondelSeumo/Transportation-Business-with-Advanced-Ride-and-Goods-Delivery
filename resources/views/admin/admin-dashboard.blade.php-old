@@ -1,0 +1,1443 @@
+
+<style>
+    .timeline .timeline-item>.timeline-point {
+        color: yellow !important;
+        padding: 3px;
+    }
+
+</style>
+
+@section('content')
+
+
+    <section class="content">
+
+        <div class="row">
+
+            <div class="col-md-5">
+                <div class="box">
+                    <div class="text-white box-body bg-info py-35">
+                        <div class="flexbox">
+                            <a href="#">
+                                <img class="avatar avatar-xxl avatar-bordered" src="{{ asset('assets/images/1.jpg') }}"
+                                    alt="">
+                            </a>
+                            <div class="flex-grow text-center">
+                                <h4 class="mb-0"><a class="text-white" href="#">Driver Name</a></h4>
+                                <span>
+                                    <i class="fa fa-star" style="color: yellow"></i>
+                                    <i class="fa fa-star" style="color: yellow"></i>
+                                    <i class="fa fa-star" style="color: yellow"></i>
+                                    <i class="fa fa-star" style="color: yellow"></i>
+                                    <i class="fa fa-star"></i>
+                                </span>
+                                <div class="pt-15">Volkswagen Passat</div>
+                                <div>SBJ38 BF5569</div>
+                            </div>
+                            <a href="#">
+                                <img class="avatar avatar-xxl avatar-bordered" src="{{ asset('assets/images/2.jpg') }}"
+                                    alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card-body bg-gray-light py-20">
+                        <span class="text-muted mr-1">Completed:</span>
+                        <span class="text-dark">652</span>
+                        <div style="float: right">
+                            <span class="text-muted mr-1">Cancelled:</span>
+                            <span class="text-dark">62</span>
+                        </div>
+                    </div>
+                    <div class="progress progress-xxs mt-0 mb-0" style="background-color: #fc4b6c;">
+                        <div class="progress-bar bg-info" role="progressbar" style="width: 65%; height: 3px;"
+                            aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-7">
+                <div class="box">
+                    <div class="box-body box-profile">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="profile-user-info">
+                                    <p><b>Status :</b>
+                                        <span class="text-danger">
+                                            Logout
+                                        </span>
+                                        <span class="text-success">
+                                            Active
+                                        </span>
+                                    </p>
+                                    <p><b>Last Updated :</b>
+                                        <span class="text-gray">
+                                            01/06/2021-07:51:24 PM
+                                        </span>
+                                    </p>
+                                    <p class="mb-0"><b>Last Updated Location :</b> <br>
+                                        <span class="text-gray">
+                                            123, Lorem, ipsum dolor sit
+                                            amvoluptatibus.
+                                            Dignissimos iusto deserunt debitis ab possimus, harum vero, error laboriosam
+                                            iste reprehenderit et hic!
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="profile-user-info">
+                                    <div class="map-box">
+                                        <iframe
+                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2805244.1745767146!2d-86.32675167439648!3d29.383165774894163!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c1766591562abf%3A0xf72e13d35bc74ed0!2sFlorida%2C+USA!5e0!3m2!1sen!2sin!4v1501665415329"
+                                            width="100%" height="165" frameborder="0" style="border:0"
+                                            allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-12">
+                <div class="box">
+                    <div class="box-header with-border">
+                        <h3 class="font-weight-600">Personal / Vehicle information</h3>
+                        <ul class="box-controls pull-right">
+                            <li><a class="box-btn-close" href="#"></a></li>
+                            <li><a class="box-btn-slide" href="#"></a></li>
+                            <li><a class="box-btn-fullscreen" href="#"></a></li>
+                        </ul>
+                    </div>
+                    <div class="box-body">
+                        <div class="profile-user-info">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <table>
+                                        <tr>
+                                            <td>
+                                                <p>
+                                                    <b>
+                                                        Driver License ID
+                                                    </b>
+                                                </p>
+                                            </td>
+                                            <td>
+                                                <p>&nbsp; : &nbsp;</p>
+                                            </td>
+                                            <td>
+                                                <p>
+                                                    <span class="text-gray">
+                                                        123456789
+                                                    </span>
+                                                </p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p>
+                                                    <b>
+                                                        Driver License expary date
+                                                    </b>
+                                                </p>
+                                            </td>
+                                            <td>
+                                                <p>&nbsp; : &nbsp;</p>
+                                            </td>
+                                            <td>
+                                                <p>
+                                                    <span class="text-gray">
+                                                        01/06/2021
+                                                    </span>
+                                                </p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p>
+                                                    <b>
+                                                        Mobile number
+                                                    </b>
+                                                </p>
+                                            </td>
+                                            <td>
+                                                <p>&nbsp; : &nbsp;</p>
+                                            </td>
+                                            <td>
+                                                <p>
+                                                    <span class="text-gray">
+                                                        123456789
+                                                    </span>
+                                                </p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p>
+                                                    <b>
+                                                        Assigned Fleet
+                                                    </b>
+                                                </p>
+                                            </td>
+                                            <td>
+                                                <p>&nbsp; : &nbsp;</p>
+                                            </td>
+                                            <td>
+                                                <p>
+                                                    <span class="text-gray">
+                                                        123456789
+                                                    </span>
+                                                </p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="col-md-4">
+                                    <table>
+                                        <tr>
+                                            <td>
+                                                <p>
+                                                    <b>
+                                                        Driver License ID
+                                                    </b>
+                                                </p>
+                                            </td>
+                                            <td>
+                                                <p>&nbsp; : &nbsp;</p>
+                                            </td>
+                                            <td>
+                                                <p>
+                                                    <span class="text-gray">
+                                                        123456789
+                                                    </span>
+                                                </p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p>
+                                                    <b>
+                                                        Driver License expary date
+                                                    </b>
+                                                </p>
+                                            </td>
+                                            <td>
+                                                <p>&nbsp; : &nbsp;</p>
+                                            </td>
+                                            <td>
+                                                <p>
+                                                    <span class="text-gray">
+                                                        01/06/2021
+                                                    </span>
+                                                </p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p>
+                                                    <b>
+                                                        Mobile number
+                                                    </b>
+                                                </p>
+                                            </td>
+                                            <td>
+                                                <p>&nbsp; : &nbsp;</p>
+                                            </td>
+                                            <td>
+                                                <p>
+                                                    <span class="text-gray">
+                                                        123456789
+                                                    </span>
+                                                </p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p>
+                                                    <b>
+                                                        Assigned Fleet
+                                                    </b>
+                                                </p>
+                                            </td>
+                                            <td>
+                                                <p>&nbsp; : &nbsp;</p>
+                                            </td>
+                                            <td>
+                                                <p>
+                                                    <span class="text-gray">
+                                                        123456789
+                                                    </span>
+                                                </p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="col-md-4">
+                                    <table>
+                                        <tr>
+                                            <td>
+                                                <p>
+                                                    <b>
+                                                        Driver License ID
+                                                    </b>
+                                                </p>
+                                            </td>
+                                            <td>
+                                                <p>&nbsp; : &nbsp;</p>
+                                            </td>
+                                            <td>
+                                                <p>
+                                                    <span class="text-gray">
+                                                        123456789
+                                                    </span>
+                                                </p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p>
+                                                    <b>
+                                                        Driver License expary date
+                                                    </b>
+                                                </p>
+                                            </td>
+                                            <td>
+                                                <p>&nbsp; : &nbsp;</p>
+                                            </td>
+                                            <td>
+                                                <p>
+                                                    <span class="text-gray">
+                                                        01/06/2021
+                                                    </span>
+                                                </p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p>
+                                                    <b>
+                                                        Mobile number
+                                                    </b>
+                                                </p>
+                                            </td>
+                                            <td>
+                                                <p>&nbsp; : &nbsp;</p>
+                                            </td>
+                                            <td>
+                                                <p>
+                                                    <span class="text-gray">
+                                                        123456789
+                                                    </span>
+                                                </p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p>
+                                                    <b>
+                                                        Assigned Fleet
+                                                    </b>
+                                                </p>
+                                            </td>
+                                            <td>
+                                                <p>&nbsp; : &nbsp;</p>
+                                            </td>
+                                            <td>
+                                                <p>
+                                                    <span class="text-gray">
+                                                        123456789
+                                                    </span>
+                                                </p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row">
+
+
+                    <div class="col-12">
+                        <div class="box">
+                            <div class="box-header with-border">
+                                <h3 class="font-weight-600">Ongoing trip Info</h3>
+                                <ul class="box-controls pull-right">
+                                    <li><a class="box-btn-close" href="#"></a></li>
+                                    <li><a class="box-btn-slide" href="#"></a></li>
+                                    <li><a class="box-btn-fullscreen" href="#"></a></li>
+                                </ul>
+                            </div>
+
+                            <div class="box-body">
+                                <div class="table-responsive">
+                                    <table id="tickets" class="table mt-0 table-hover no-wrap table-striped table-bordered"
+                                        data-page-size="10">
+                                        <thead>
+                                            <tr class="bg-dark">
+                                                <th>Fleet No</th>
+                                                <th>Pickup details</th>
+                                                <th>Drop details</th>
+                                                <th>Ttip Status</th>
+                                                <th>Current Location</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+
+                                            <tr>
+                                                <td>
+                                                    123564ABD987
+                                                </td>
+                                                <td>
+                                                    Hourse 57, road-8, Block-D, <br> niketon, Gulshan.
+                                                </td>
+                                                <td>
+                                                    Daffodil international <br> Unerversity, 102/1, <br> Sukrabad Mirpur Rd,
+                                                    <br> Dhaka 1207, Bangladesh.
+                                                </td>
+                                                <td>
+                                                    Trip&nbsp;Started
+                                                </td>
+                                                <td>
+                                                    <div class="map-box">
+                                                        <iframe
+                                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2805244.1745767146!2d-86.32675167439648!3d29.383165774894163!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c1766591562abf%3A0xf72e13d35bc74ed0!2sFlorida%2C+USA!5e0!3m2!1sen!2sin!4v1501665415329"
+                                                            width="100%" height="165" frameborder="0" style="border:0"
+                                                            allowfullscreen></iframe>
+                                                    </div>
+                                                </td>
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row">
+
+
+                    <div class="col-12">
+                        <div class="box">
+                            <div class="box-header with-border">
+                                <h3 class="font-weight-600">Recharge History</h3>
+                                <ul class="box-controls pull-right">
+                                    <li><a class="box-btn-close" href="#"></a></li>
+                                    <li><a class="box-btn-slide" href="#"></a></li>
+                                    <li><a class="box-btn-fullscreen" href="#"></a></li>
+                                </ul>
+                            </div>
+
+                            <div class="box-body">
+                                <div class="table-responsive">
+                                    <table id="tickets" class="table mt-0 table-hover no-wrap table-striped table-bordered"
+                                        data-page-size="10">
+                                        <thead>
+                                            <tr class="bg-dark">
+                                                <th>Fleet No</th>
+                                                <th>Pickup details</th>
+                                                <th>Drop details</th>
+                                                <th>Ttip Status</th>
+                                                <th>Current Location</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+
+                                            <tr>
+                                                <td colspan="6" class="text-center">
+                                                    No hostry found
+                                                </td>
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row">
+
+
+                    <div class="col-12">
+                        <div class="box">
+                            <div class="box-header with-border">
+                                <h3 class="font-weight-600">Shift History</h3>
+                                <ul class="box-controls pull-right">
+                                    <li><a class="box-btn-close" href="#"></a></li>
+                                    <li><a class="box-btn-slide" href="#"></a></li>
+                                    <li><a class="box-btn-fullscreen" href="#"></a></li>
+                                </ul>
+                            </div>
+
+                            <div class="box-body">
+                                <div class="table-responsive">
+                                    <table id="tickets" class="table mt-0 table-hover no-wrap table-striped table-bordered"
+                                        data-page-size="10">
+                                        <thead>
+                                            <tr class="bg-dark">
+                                                <th>#</th>
+                                                <th>Fleet No</th>
+                                                <th>Shift Start</th>
+                                                <th>Shift End</th>
+                                                <th>Shift Time</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+
+                                            <tr>
+                                                <td>1</td>
+                                                <td>123564ABD987</td>
+                                                <td>
+                                                    01/06/2021-05:14:00 pM
+                                                </td>
+                                                <td>
+                                                    01/06/2021-07:51:24 PM
+                                                </td>
+                                                <td>
+                                                    2Hr 37Min 24Sec
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>2</td>
+                                                <td>123564ABD987</td>
+                                                <td>
+                                                    01/06/2021-05:14:00 pM
+                                                </td>
+                                                <td>
+                                                    01/06/2021-07:51:24 PM
+                                                </td>
+                                                <td>
+                                                    2Hr 37Min 24Sec
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>3</td>
+                                                <td>123564ABD987</td>
+                                                <td>
+                                                    01/06/2021-05:14:00 pM
+                                                </td>
+                                                <td>
+                                                    01/06/2021-07:51:24 PM
+                                                </td>
+                                                <td>
+                                                    2Hr 37Min 24Sec
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>4</td>
+                                                <td>123564ABD987</td>
+                                                <td>
+                                                    01/06/2021-05:14:00 pM
+                                                </td>
+                                                <td>
+                                                    01/06/2021-07:51:24 PM
+                                                </td>
+                                                <td>
+                                                    2Hr 37Min 24Sec
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>5</td>
+                                                <td>123564ABD987</td>
+                                                <td>
+                                                    01/06/2021-05:14:00 pM
+                                                </td>
+                                                <td>
+                                                    01/06/2021-07:51:24 PM
+                                                </td>
+                                                <td>
+                                                    2Hr 37Min 24Sec
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>6</td>
+                                                <td>123564ABD987</td>
+                                                <td>
+                                                    01/06/2021-05:14:00 pM
+                                                </td>
+                                                <td>
+                                                    01/06/2021-07:51:24 PM
+                                                </td>
+                                                <td>
+                                                    2Hr 37Min 24Sec
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>7</td>
+                                                <td>123564ABD987</td>
+                                                <td>
+                                                    01/06/2021-05:14:00 pM
+                                                </td>
+                                                <td>
+                                                    01/06/2021-07:51:24 PM
+                                                </td>
+                                                <td>
+                                                    2Hr 37Min 24Sec
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>8</td>
+                                                <td>123564ABD987</td>
+                                                <td>
+                                                    01/06/2021-05:14:00 pM
+                                                </td>
+                                                <td>
+                                                    01/06/2021-07:51:24 PM
+                                                </td>
+                                                <td>
+                                                    2Hr 37Min 24Sec
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>9</td>
+                                                <td>123564ABD987</td>
+                                                <td>
+                                                    01/06/2021-05:14:00 pM
+                                                </td>
+                                                <td>
+                                                    01/06/2021-07:51:24 PM
+                                                </td>
+                                                <td>
+                                                    2Hr 37Min 24Sec
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>10</td>
+                                                <td>123564ABD987</td>
+                                                <td>
+                                                    01/06/2021-05:14:00 pM
+                                                </td>
+                                                <td>
+                                                    01/06/2021-07:51:24 PM
+                                                </td>
+                                                <td>
+                                                    2Hr 37Min 24Sec
+                                                </td>
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-5">
+                                        <div class="dataTables_info" id="tickets_info" role="status" aria-live="polite">
+                                            Showing
+                                            1 to
+                                            10 of 20 entries</div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-7 text-right">
+                                        <div class="dataTables_paginate paging_simple_numbers" id="tickets_paginate">
+                                            <ul class="pagination">
+                                                <li class="paginate_button page-item previous disabled"
+                                                    id="tickets_previous"><a href="#" aria-controls="tickets"
+                                                        data-dt-idx="0" tabindex="0" class="page-link">Previous</a></li>
+                                                <li class="paginate_button page-item active"><a href="#"
+                                                        aria-controls="tickets" data-dt-idx="1" tabindex="0"
+                                                        class="page-link">1</a></li>
+                                                <li class="paginate_button page-item "><a href="#" aria-controls="tickets"
+                                                        data-dt-idx="2" tabindex="0" class="page-link">2</a></li>
+                                                <li class="paginate_button page-item next" id="tickets_next"><a href="#"
+                                                        aria-controls="tickets" data-dt-idx="3" tabindex="0"
+                                                        class="page-link">Next</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-lg-12">
+                <!-- DONUT CHART -->
+                <div class="box">
+                    <div class="box-header with-border">
+                        <h3 class="font-weight-600">Total earnings</h3>
+                        <ul class="box-controls pull-right">
+                            <li><a class="box-btn-close" href="#"></a></li>
+                            <li><a class="box-btn-slide" href="#"></a></li>
+                            <li><a class="box-btn-fullscreen" href="#"></a></li>
+                        </ul>
+                    </div>
+                    {{-- <div class="box-header with-border pb-0 mb-20">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <h3 class="font-weight-600">Total earnings</h3>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="row g-3 pb-15 pb-md-0 justify-content-end">
+                                    <div class="col-md-4 pb-4 pb-md-0">
+                                        <div class="dropdown">
+                                            <button class="btn btn-outline btn-dark w-full dropdown-toggle" type="button"
+                                                data-toggle="dropdown">Select
+                                                Brand</button>
+                                            <div class="dropdown-menu">
+                                                <h4 class="pl-2 pt-2">
+                                                    Brand Name
+                                                </h4>
+                                                <div class="dropdown-divider"></div>
+                                                <a class="dropdown-item flexbox" href="#">
+                                                    <span>Tagyourtaxi</span>
+                                                    <span class="badge badge-pill badge-dark">5</span>
+                                                </a>
+                                                <a class="dropdown-item" href="#">Tagyourtruck</a>
+                                                <a class="dropdown-item" href="#">iizi-taxi</a>
+                                                <div class="dropdown-divider"></div>
+                                                <h4 class="pl-2 pt-2">
+                                                    Zone Name
+                                                </h4>
+                                                <div class="dropdown-divider"></div>
+                                                <a class="dropdown-item flexbox" href="#">
+                                                    <span>Coimbature</span>
+                                                </a>
+                                                <a class="dropdown-item flexbox" href="#">
+                                                    <span>Chennai</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-6">
+                                        <form action="post">
+                                            <div class="form-group has-feedback">
+                                                <input type="date" class="form-control btn btn-outline btn-dark"
+                                                    placeholder="From Date" style="height: 45px">
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="col-md-3 col-6">
+                                        <form action="post">
+                                            <div class="form-group has-feedback">
+                                                <input type="date" class="form-control btn btn-outline btn-dark"
+                                                    placeholder="To Date" style="height: 45px">
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <button class="btn btn-outline btn-dark bg-dark text-white w-full w-md-auto"
+                                            type="button">Go</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> --}}
+                    <div class="row">
+                        <div class="col-12 col-lg-6">
+                            <div class="box-body chart-responsive">
+                                <canvas id="chart_1" height="200"></canvas>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 m-auto pr-25">
+                            <div class="row">
+
+                                <div class="col-md-6">
+                                    <div class="info-box">
+                                        <span class="info-box-icon rounded"
+                                            style="background-color:#7460ee;padding: 20px;"><i
+                                                class="ion ion-stats-bars text-white"></i></span>
+                                        <div class="info-box-content" style="color: #455a80">
+                                            <h4 class="font-weight-600">
+                                                $15,956
+                                                <br>
+                                                Total Earnings
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="box box-body">
+                                        <div class="font-size-18 flexbox align-items-center" style="color: #7460ee">
+                                            <span style="color: #455a80">By Cash</span>
+                                            <span>$5,956</span>
+                                        </div>
+                                        <div class="progress progress-xxs mt-10 mb-0">
+                                            <div class="progress-bar" role="progressbar"
+                                                style="width: 65%; height: 4px;background-color: #7460ee;"
+                                                aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                        <div class="text-right"><small class="font-weight-300 mb-5"><i
+                                                    class="fa fa-sort-up text-success mr-1"></i> 60%</small>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="box box-body">
+                                        <div class="font-size-18 flexbox align-items-center" style="color: #7460ee">
+                                            <span style="color: #455a80">By Wallet</span>
+                                            <span>$1,025</span>
+                                        </div>
+                                        <div class="progress progress-xxs mt-10 mb-0">
+                                            <div class="progress-bar" role="progressbar"
+                                                style="width: 65%; height: 4px;background-color: #7460ee" aria-valuenow="65"
+                                                aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                        <div class="text-right"><small class="font-weight-300 mb-5"><i
+                                                    class="fa fa-sort-up text-success mr-1"></i> 30%</small>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="box box-body">
+                                        <div class="font-size-18 flexbox align-items-center" style="color: #7460ee">
+                                            <span style="color: #455a80">By Card/Online</span>
+                                            <span>$5,902</span>
+                                        </div>
+                                        <div class="progress progress-xxs mt-10 mb-0">
+                                            <div class="progress-bar" role="progressbar"
+                                                style="width: 65%; height: 4px;background-color: #7460ee" aria-valuenow="65"
+                                                aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                        <div class="text-right"><small class="font-weight-300 mb-5"><i
+                                                    class="fa fa-sort-up text-success mr-1"></i> 10%</small>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="info-box">
+                                        <span class="info-box-icon rounded"
+                                            style="background-color: #fc4b6c;padding: 20px;"><i
+                                                class="ion ion-stats-bars text-white"></i></span>
+                                        <div class="info-box-content" style="color: #fc4b6c">
+                                            <h4 class="font-weight-600">
+                                                $5,000
+                                                <br>
+                                                Commision
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="info-box">
+                                        <span class="info-box-icon rounded"
+                                            style="background-color:#26c6da;padding: 20px;"><i
+                                                class="ion ion-stats-bars text-white"></i></span>
+                                        <div class="info-box-content" style="color: #26c6da">
+                                            <h4 class="font-weight-600">
+                                                $10,956
+                                                <br>
+                                                Driver Earnings
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- /.box -->
+
+            </div>
+            <div class="col-12 col-lg-12">
+                <!-- DONUT CHART -->
+                <div class="box">
+                    <div class="box-header with-border">
+                        <h3 class="font-weight-600">Trip statistics</h3>
+                        <ul class="box-controls pull-right">
+                            <li><a class="box-btn-close" href="#"></a></li>
+                            <li><a class="box-btn-slide" href="#"></a></li>
+                            <li><a class="box-btn-fullscreen" href="#"></a></li>
+                        </ul>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="box-body chart-responsive">
+                                <div class="chart" id="bar-chart" style="height: 300px;"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-10 m-auto">
+                            <div class="row">
+
+                                <div class="col-md-4">
+                                    <!-- small box -->
+                                    <div class="small-box text-white" style="background-color:#7460ee">
+                                        <div class="inner">
+                                            <h3>652</h3>
+
+                                            <p>Completed Trips</p>
+                                        </div>
+                                        <div class="icon">
+                                            <i class="fa fa-pie-chart"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <!-- small box -->
+                                    <div class="small-box text-white" style="background-color:#fc4b6c">
+                                        <div class="inner">
+                                            <h3>62</h3>
+
+                                            <p>Cancelled Trips</p>
+                                        </div>
+                                        <div class="icon">
+                                            <i class="fa fa-pie-chart"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <!-- small box -->
+                                    <div class="small-box text-white" style="background-color:#398bf7">
+                                        <div class="inner">
+                                            <h3>5</h3>
+
+                                            <p>Scheduled Trips</p>
+                                        </div>
+                                        <div class="icon">
+                                            <i class="fa fa-pie-chart"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.box -->
+
+            </div>
+            <div class="col-12 col-lg-12">
+                <!-- DONUT CHART -->
+                <div class="box">
+                    <div class="box-header with-border">
+                        <h3 class="font-weight-600">Transaction made by the driver</h3>
+                        <ul class="box-controls pull-right">
+                            <li><a class="box-btn-close" href="#"></a></li>
+                            <li><a class="box-btn-slide" href="#"></a></li>
+                            <li><a class="box-btn-fullscreen" href="#"></a></li>
+                        </ul>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="box-body chart-responsive">
+                                <canvas id="chart_6" height="200"></canvas>
+                            </div>
+                        </div>
+                        <div class="col-md-6 pr-25 m-auto">
+                            <h2 class="m-0 font-weight-600">By Cash</h2>
+                            <h2 class="text-lgreen m-0">$15,956</h2>
+                            <div class="progress mt-4">
+                                <div class="progress-bar progress-bar-primary progress-bar-striped" style="width: 70%;"
+                                    role="progressbar">
+                                </div>
+                            </div>
+                            <h2 class="m-0 font-weight-600">By Wallet</h2>
+                            <h2 class="text-lgreen m-0">$5,000</h2>
+                            <div class="progress mt-4">
+                                <div class="progress-bar progress-bar-danger progress-bar-striped" style="width: 30%;"
+                                    role="progressbar">
+                                </div>
+                            </div>
+                            <h2 class="m-0 font-weight-600">By Card/Online</h2>
+                            <h2 class="text-lgreen m-0">$10,956</h2>
+                            <div class="progress mt-4">
+                                <div class="progress-bar progress-bar-info progress-bar-striped" style="width: 10%;"
+                                    role="progressbar">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- /.box -->
+
+            </div>
+
+        </div>
+        {{-- <div class="row">
+
+
+            <div class="col-lg-8 col-12">
+
+                <div class="nav-tabs-custom box-profile">
+                    <ul class="nav nav-tabs">
+
+                        <li><a class="active" href="#timeline" data-toggle="tab">Ratings</a></li>
+                        <li><a href="#activity" data-toggle="tab">Activity</a></li>
+                        <li><a href="#settings" data-toggle="tab">Update Profile</a></li>
+                    </ul>
+
+                    <div class="tab-content">
+
+                        <div class="active tab-pane" id="timeline">
+
+                            <div class="box p-15">
+                                <div class="timeline timeline-single-column">
+
+                                    <div class="timeline-item">
+                                        <div class="timeline-point">
+                                            <i class="fa fa-star text-yellow"></i>
+                                        </div>
+                                        <div class="timeline-event">
+                                            <div class="timeline-heading">
+                                                <h4 class="timeline-title">Rider Name</h4>
+                                            </div>
+                                            <div class="timeline-body">
+                                                <p>Advenientibus aliorum eam ad per te sed. Facere debetur aut veneris
+                                                    accedens.</p>
+                                                <br>
+                                                <span>
+                                                    <i class="fa fa-star" style="color: yellow"></i>
+                                                    <i class="fa fa-star" style="color: yellow"></i>
+                                                    <i class="fa fa-star" style="color: yellow"></i>
+                                                    <i class="fa fa-star" style="color: yellow"></i>
+                                                    <i class="fa fa-star" style="color: yellow"></i>
+                                                </span>
+                                            </div>
+                                            <div class="timeline-footer">
+                                                <p class="text-right">Feb-22-2021</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="timeline-item">
+                                        <div class="timeline-point">
+                                            <i class="fa fa-star text-yellow"></i>
+                                        </div>
+                                        <div class="timeline-event">
+                                            <div class="timeline-heading">
+                                                <h4 class="timeline-title">Rider Name</h4>
+                                            </div>
+                                            <div class="timeline-body">
+                                                <p>Advenientibus aliorum eam ad per te sed. Facere debetur aut veneris
+                                                    accedens.</p>
+                                                <br>
+                                                <span>
+                                                    <i class="fa fa-star" style="color: yellow"></i>
+                                                    <i class="fa fa-star" style="color: yellow"></i>
+                                                    <i class="fa fa-star" style="color: yellow"></i>
+                                                    <i class="fa fa-star" style="color: yellow"></i>
+                                                    <i class="fa fa-star" style="color: yellow"></i>
+                                                </span>
+                                            </div>
+                                            <div class="timeline-footer">
+                                                <p class="text-right">Feb-22-2021</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="timeline-item">
+                                        <div class="timeline-point">
+                                            <i class="fa fa-star text-yellow"></i>
+                                        </div>
+                                        <div class="timeline-event">
+                                            <div class="timeline-heading">
+                                                <h4 class="timeline-title">Rider Name</h4>
+                                            </div>
+                                            <div class="timeline-body">
+                                                <p>Advenientibus aliorum eam ad per te sed. Facere debetur aut veneris
+                                                    accedens.</p>
+                                                <br>
+                                                <span>
+                                                    <i class="fa fa-star" style="color: yellow"></i>
+                                                    <i class="fa fa-star" style="color: yellow"></i>
+                                                    <i class="fa fa-star" style="color: yellow"></i>
+                                                    <i class="fa fa-star" style="color: yellow"></i>
+                                                    <i class="fa fa-star" style="color: yellow"></i>
+                                                </span>
+                                            </div>
+                                            <div class="timeline-footer">
+                                                <p class="text-right">Feb-22-2021</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <span class="timeline-label">
+                                        <span class="badge badge-info badge-lg">label</span>
+                                    </span>
+
+                                    <div class="timeline-item">
+                                        <div class="timeline-point">
+                                            <i class="fa fa-star text-yellow"></i>
+                                        </div>
+                                        <div class="timeline-event">
+                                            <div class="timeline-heading">
+                                                <h4 class="timeline-title">Rider Name</h4>
+                                            </div>
+                                            <div class="timeline-body">
+                                                <p>Advenientibus aliorum eam ad per te sed. Facere debetur aut veneris
+                                                    accedens.</p>
+                                                <br>
+                                                <span>
+                                                    <i class="fa fa-star" style="color: yellow"></i>
+                                                    <i class="fa fa-star" style="color: yellow"></i>
+                                                    <i class="fa fa-star" style="color: yellow"></i>
+                                                    <i class="fa fa-star" style="color: yellow"></i>
+                                                    <i class="fa fa-star" style="color: yellow"></i>
+                                                </span>
+                                            </div>
+                                            <div class="timeline-footer">
+                                                <p class="text-right">Feb-22-2021</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <span class="timeline-label">
+                                        <button class="btn btn-danger"><i class="fa fa-clock-o"></i></button>
+                                    </span>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+
+                        <div class="tab-pane" id="activity">
+
+                            <div class="box p-15">
+
+                                <div class="post">
+                                    <div class="user-block">
+                                        <img class="img-bordered-sm rounded-circle"
+                                            src="{{ asset('assets/images/1.jpg') }}" alt="user image">
+                                        <span class="username">
+                                            <a href="#">Brayden</a>
+                                        </span>
+                                        <span class="description">5 minutes ago</span>
+                                    </div>
+
+                                    <div class="activitytimeline">
+                                        <p>
+                                            <b>
+                                                Pickup Location
+                                                :
+                                            </b>
+                                            <br>
+                                            <span class="text-gray">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.
+                                                Praesent libero. Sed cursus ante dapibus diam.
+                                            </span>
+                                        </p>
+                                        <p>
+                                            <b>
+                                                Drop Location
+                                                :
+                                            </b>
+                                            <br>
+                                            <span class="text-gray">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.
+                                                Praesent libero. Sed cursus ante dapibus diam.
+                                            </span>
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="post">
+                                    <div class="user-block">
+                                        <img class="img-bordered-sm rounded-circle"
+                                            src="{{ asset('assets/images/1.jpg') }}" alt="user image">
+                                        <span class="username">
+                                            <a href="#">Brayden</a>
+                                        </span>
+                                        <span class="description">5 minutes ago</span>
+                                    </div>
+
+                                    <div class="activitytimeline">
+                                        <p>
+                                            <b>
+                                                Pickup Location
+                                                :
+                                            </b>
+                                            <br>
+                                            <span class="text-gray">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.
+                                                Praesent libero. Sed cursus ante dapibus diam.
+                                            </span>
+                                        </p>
+                                        <p>
+                                            <b>
+                                                Drop Location
+                                                :
+                                            </b>
+                                            <br>
+                                            <span class="text-gray">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.
+                                                Praesent libero. Sed cursus ante dapibus diam.
+                                            </span>
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="post">
+                                    <div class="user-block">
+                                        <img class="img-bordered-sm rounded-circle"
+                                            src="{{ asset('assets/images/1.jpg') }}" alt="user image">
+                                        <span class="username">
+                                            <a href="#">Brayden</a>
+                                        </span>
+                                        <span class="description">5 minutes ago</span>
+                                    </div>
+
+                                    <div class="activitytimeline">
+                                        <p>
+                                            <b>
+                                                Pickup Location
+                                                :
+                                            </b>
+                                            <br>
+                                            <span class="text-gray">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.
+                                                Praesent libero. Sed cursus ante dapibus diam.
+                                            </span>
+                                        </p>
+                                        <p>
+                                            <b>
+                                                Drop Location
+                                                :
+                                            </b>
+                                            <br>
+                                            <span class="text-gray">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.
+                                                Praesent libero. Sed cursus ante dapibus diam.
+                                            </span>
+                                        </p>
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="tab-pane" id="settings">
+
+                            <div class="box p-15">
+                                <form class="form-horizontal form-element col-12">
+                                    <div class="form-group row">
+                                        <label for="inputName" class="col-sm-2 control-label">Name</label>
+
+                                        <div class="col-sm-10">
+                                            <input type="email" class="form-control" id="inputName" placeholder="">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="inputEmail" class="col-sm-2 control-label">Email</label>
+
+                                        <div class="col-sm-10">
+                                            <input type="email" class="form-control" id="inputEmail" placeholder="">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="inputPhone" class="col-sm-2 control-label">Phone</label>
+
+                                        <div class="col-sm-10">
+                                            <input type="tel" class="form-control" id="inputPhone" placeholder="">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <div class="ml-auto col-sm-10">
+                                            <div class="checkbox">
+                                                <input type="checkbox" id="basic_checkbox_1" checked="">
+                                                <label for="basic_checkbox_1"> I agree to the</label>
+                                                &nbsp;&nbsp;&nbsp;&nbsp;<a href="#">Terms and Conditions</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <div class="ml-auto col-sm-10">
+                                            <button type="submit" class="btn btn-success">Submit</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div> --}}
+
+
+    </section>
+    <script src="{{ asset('assets/vendor_components/raphael/raphael.min.js') }}"></script>
+    <script src="{{ asset('assets/vendor_components/morris.js/morris.min.js') }}"></script>
+    <script>
+        $(function() {
+            "use strict";
+
+            //BAR CHART
+            var bar = new Morris.Bar({
+                element: 'bar-chart',
+                resize: true,
+                data: [{
+                    y: '',
+                    a: 652,
+                    b: 62,
+                    c: 5
+                }],
+                barColors: ['#7460ee', '#fc4b6c', '#398bf7'],
+                barSizeRatio: 0.5,
+                barGap: 5,
+                xkey: 'y',
+                ykeys: ['a', 'b', 'c'],
+                labels: ['Completed Trips', 'Cancelled Trips', 'Scheduled Trips'],
+                hideHover: 'auto'
+            });
+        });
+
+    </script>
+    <script>
+        $(document).ready(function() {
+            "use strict";
+
+            if ($('#chart_1').length > 0) {
+                var ctx1 = document.getElementById("chart_1").getContext("2d");
+                var data1 = {
+                    labels: ["January", "February", "March", "April", "May", "June", "July"],
+                    datasets: [{
+                        label: "Overall Earnings",
+                        backgroundColor: "#bdb5ed",
+                        borderColor: "#9080f1",
+                        pointBorderColor: "#ffffff",
+                        pointHighlightStroke: "#26c6da",
+                        data: [0, 59, 40, 75, 50, 45, 80]
+                    }]
+                };
+
+                var areaChart = new Chart(ctx1, {
+                    type: "line",
+                    data: data1,
+
+                    options: {
+                        tooltips: {
+                            mode: "label"
+                        },
+                        elements: {
+                            point: {
+                                hitRadius: 90
+                            }
+                        },
+
+                        scales: {
+                            yAxes: [{
+                                stacked: true,
+                                gridLines: {
+                                    color: "rgba(135,135,135,0)",
+                                },
+                                ticks: {
+                                    fontFamily: "Poppins",
+                                    fontColor: "#878787"
+                                }
+                            }],
+                            xAxes: [{
+                                stacked: true,
+                                gridLines: {
+                                    color: "rgba(135,135,135,0)",
+                                },
+                                ticks: {
+                                    fontFamily: "Poppins",
+                                    fontColor: "#878787"
+                                }
+                            }]
+                        },
+                        animation: {
+                            duration: 3000
+                        },
+                        responsive: true,
+                        legend: {
+                            display: false,
+                        },
+                        tooltip: {
+                            backgroundColor: 'rgba(33,33,33,1)',
+                            cornerRadius: 0,
+                            footerFontFamily: "'Poppins'"
+                        }
+
+                    }
+                });
+            }
+            if ($('#chart_6').length > 0) {
+                var ctx6 = document.getElementById("chart_6").getContext("2d");
+                var data6 = {
+                    labels: [
+                        "By Cash",
+                        "By Wallet",
+                        "By Card/Online"
+                    ],
+                    datasets: [{
+                        data: [15956, 5000, 10956],
+                        backgroundColor: [
+                            "#7460ee",
+                            "#fc4b6c",
+                            "#398bf7"
+                        ],
+                        hoverBackgroundColor: [
+                            "#7460ee",
+                            "#fc4b6c",
+                            "#398bf7"
+                        ]
+                    }]
+                };
+
+                var pieChart = new Chart(ctx6, {
+                    type: 'pie',
+                    data: data6,
+                    options: {
+                        animation: {
+                            duration: 3000
+                        },
+                        responsive: true,
+                        legend: {
+                            labels: {
+                                fontFamily: "Poppins",
+                                fontColor: "#878787"
+                            }
+                        },
+                        tooltip: {
+                            backgroundColor: 'rgba(33,33,33,1)',
+                            cornerRadius: 0,
+                            footerFontFamily: "'Poppins'"
+                        },
+                        elements: {
+                            arc: {
+                                borderWidth: 0
+                            }
+                        }
+                    }
+                });
+            }
+        });
+
+    </script>
+
+
+
+@endsection

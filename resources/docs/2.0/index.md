@@ -1,0 +1,2 @@
+- ## Get Started
+    - [Admin-user-manual](/{{route}}/{{version}}/admin-user-manual)

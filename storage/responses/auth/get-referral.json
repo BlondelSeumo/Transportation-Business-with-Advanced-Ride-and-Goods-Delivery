@@ -1,0 +1,23 @@
+{
+    "success": true,
+    "data":
+    {
+        "id": 15,
+        "name": "Test Test",
+        "last_name": null,
+        "username": null,
+        "email": "testa@gmail.com",
+        "mobile": "9878987812",
+        "profile_picture": null,
+        "active": 1,
+        "email_confirmed": 0,
+        "mobile_confirmed": 1,
+        "last_known_ip": "::1",
+        "last_login_at": "2020-08-05 11:26:35",
+        "refferal_code": "RAME123",
+        "rating": 5,
+        "no_of_ratings": 8,
+        "currency_code": "INR",
+        "currency_symbol": "$"
+    }
+}

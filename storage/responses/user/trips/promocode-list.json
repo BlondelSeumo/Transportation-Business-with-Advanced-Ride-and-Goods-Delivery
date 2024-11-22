@@ -1,0 +1,21 @@
+{
+    "success": true,
+    "message": "promo_listed",
+    "data": [
+    {
+        "id": "8b117607-2f85-4713-a20f-3cf11b816d6e",
+        "service_location_id": "48e861b5-8d4d-4281-807c-1cdd2a5fee3e",
+        "code": "21555",
+        "minimum_trip_amount": 50,
+        "maximum_discount_amount": 50,
+        "discount_percent": 50,
+        "total_uses": 50,
+        "uses_per_user": 50,
+        "from": "2020-10-14 00:00:00",
+        "to": "2020-10-23 23:59:59",
+        "active": 1,
+        "is_applied": false,
+        "created_at": "2020-10-14 16:52:45",
+        "updated_at": "2020-10-14 16:52:45"
+    }]
+}

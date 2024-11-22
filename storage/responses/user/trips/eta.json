@@ -1,0 +1,30 @@
+{
+    "success": true,
+    "message": "success",
+    "data":
+    {
+        "zone_type_id": "9ea6f9a0-6fd2-4962-9d81-645e6301096f",
+        "name": "Mini",
+        "distance": 11.87,
+        "time": 55,
+        "base_distance": 5,
+        "base_price": 5,
+        "price_per_distance": 5,
+        "price_per_time": 5,
+        "distance_price": 59.36,
+        "time_price": 148.83333333333331,
+        "ride_fare": 213.19333333333333,
+        "tax_amount": 63.958,
+        "tax": "30",
+        "total": 277.15133333333335,
+        "approximate_value": 1,
+        "min_amount": 277.15133333333335,
+        "max_amount": 291.00890000000004,
+        "currency": null,
+        "type_name": "Mini",
+        "unit": null,
+        "unit_in_words_without_lang": "km",
+        "unit_in_words": "km",
+        "driver_arival_estimation": "23 min"
+    }
+}

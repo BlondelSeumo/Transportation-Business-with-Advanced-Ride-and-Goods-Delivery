@@ -1,0 +1,55 @@
+ETA - api/v1/request/adhoc-eta
+
+Method - POST
+
+Params
+-----
+pick_lat
+pick_lng
+drop_lat
+drop_lng
+transport_type
+promo_code
+
+-------------------------------------------
+Create Request - api/v1/request/adhoc-create-request
+
+Method - POSt
+
+Params
+------
+transport_type -- taxi/delivery
+country_code - country code of user mobile
+mobile - mobile number of user
+pick_lat
+pick_lng
+drop_lat
+drop_lng
+pick_address
+drop_address
+vehicle_type
+is_later
+trip_start_time
+promocode_id
+rental_package_id
+request_eta_amount
+goods_type_id
+goods_type_quantity
+drop_poc_instruction
+drop_poc_name
+drop_poc_mobile
+
+----------------------------------------------------
+List Packages - api/v1/request/adhoc-list-packages
+
+Method - POST
+
+Params
+------
+transport_type -- taxi/delivery
+pick_lat
+pick_lng
+
+
+List Goods Type api - api/v1/common/goods-types
+Method - GET

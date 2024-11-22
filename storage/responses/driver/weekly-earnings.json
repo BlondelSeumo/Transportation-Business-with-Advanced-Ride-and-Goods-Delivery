@@ -1,0 +1,31 @@
+{
+    "success": true,
+    "message": "success",
+    "data":
+    {
+        "week_days":
+        {
+            "monday": 1073.44,
+            "tuesday": 0,
+            "wednesday": 0,
+            "thursday": 0,
+            "friday": 0,
+            "saturday": 0,
+            "sunday": 0
+        },
+        "current_date": "12th Oct 2020",
+        "current_week_number": 41,
+        "start_of_week": "5th Oct 2020",
+        "end_of_week": "11th Oct 2020",
+        "disable_next_week": true,
+        "disable_previous_week": false,
+        "total_trips_count": 1,
+        "total_trip_kms": 14,
+        "total_earnings": 1073.44,
+        "total_cash_trip_amount": 1073.44,
+        "total_wallet_trip_amount": 0,
+        "total_cash_trip_count": 1,
+        "total_wallet_trip_count": 0,
+        "currency_symbol": "₹"
+    }
+}

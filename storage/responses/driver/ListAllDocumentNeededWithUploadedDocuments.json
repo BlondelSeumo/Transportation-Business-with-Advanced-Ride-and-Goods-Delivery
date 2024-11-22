@@ -1,0 +1,45 @@
+{
+    "success": true,
+    "enable_submit_button": false,
+    "data": [
+    {
+        "id": 1,
+        "name": "License",
+        "doc_type": "image",
+        "has_identify_number": true,
+        "has_expiry_date": true,
+        "active": 1,
+        "identify_number_locale_key": "identification number",
+        "is_uploaded": true,
+        "document_status": 4,
+        "document_status_string": "Reuploaded And Waiting For Approval",
+        "driver_document":
+        {
+            "data":
+            {
+                "id": "5b0134b6-e587-4c12-a85c-192f7a4cb319",
+                "document_id": 1,
+                "document_name": "License",
+                "document": "http://localhost/future/public/storage/uploads/driver/documents/6/qicbTf4bO69sFEPSmfy7eJasMHh1WnQIwaGuBRER.jpg",
+                "identify_number": "14578",
+                "expiry_date": "2020-08-13",
+                "comment": null,
+                "document_status": 4,
+                "document_status_string": "Reuploaded And Waiting For Approval"
+            }
+        }
+    },
+    {
+        "id": 2,
+        "name": "Rc Book",
+        "doc_type": "image",
+        "has_identify_number": false,
+        "has_expiry_date": true,
+        "active": 1,
+        "identify_number_locale_key": null,
+        "is_uploaded": false,
+        "document_status": 2,
+        "document_status_string": "Not Uploaded",
+        "driver_document": null
+    }]
+}

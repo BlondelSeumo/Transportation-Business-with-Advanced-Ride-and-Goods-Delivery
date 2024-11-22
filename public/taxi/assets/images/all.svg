@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve" width="512px" height="512px" class=""><g><g>
+	<g>
+		<g>
+			<rect x="144" width="32" height="32" data-original="#000000" class="active-path" data-old_color="#000000" fill="#FFFFFF"/>
+			<polygon points="400,0 400,32 480,32 480,112 512,112 512,0    " data-original="#000000" class="active-path" data-old_color="#000000" fill="#FFFFFF"/>
+			<polygon points="480,480 400,480 400,512 512,512 512,400 480,400    " data-original="#000000" class="active-path" data-old_color="#000000" fill="#FFFFFF"/>
+			<rect x="144" y="480" width="32" height="32" data-original="#000000" class="active-path" data-old_color="#000000" fill="#FFFFFF"/>
+			<rect x="208" width="32" height="32" data-original="#000000" class="active-path" data-old_color="#000000" fill="#FFFFFF"/>
+			<rect x="208" y="480" width="32" height="32" data-original="#000000" class="active-path" data-old_color="#000000" fill="#FFFFFF"/>
+			<rect x="272" width="32" height="32" data-original="#000000" class="active-path" data-old_color="#000000" fill="#FFFFFF"/>
+			<rect x="272" y="480" width="32" height="32" data-original="#000000" class="active-path" data-old_color="#000000" fill="#FFFFFF"/>
+			<rect x="336" width="32" height="32" data-original="#000000" class="active-path" data-old_color="#000000" fill="#FFFFFF"/>
+			<rect y="336" width="32" height="32" data-original="#000000" class="active-path" data-old_color="#000000" fill="#FFFFFF"/>
+			<rect y="272" width="32" height="32" data-original="#000000" class="active-path" data-old_color="#000000" fill="#FFFFFF"/>
+			<rect y="208" width="32" height="32" data-original="#000000" class="active-path" data-old_color="#000000" fill="#FFFFFF"/>
+			<rect y="144" width="32" height="32" data-original="#000000" class="active-path" data-old_color="#000000" fill="#FFFFFF"/>
+			<rect x="480" y="336" width="32" height="32" data-original="#000000" class="active-path" data-old_color="#000000" fill="#FFFFFF"/>
+			<rect x="480" y="272" width="32" height="32" data-original="#000000" class="active-path" data-old_color="#000000" fill="#FFFFFF"/>
+			<rect x="480" y="208" width="32" height="32" data-original="#000000" class="active-path" data-old_color="#000000" fill="#FFFFFF"/>
+			<rect x="480" y="144" width="32" height="32" data-original="#000000" class="active-path" data-old_color="#000000" fill="#FFFFFF"/>
+			<rect x="336" y="480" width="32" height="32" data-original="#000000" class="active-path" data-old_color="#000000" fill="#FFFFFF"/>
+			<polygon points="32,400 0,400 0,512 112,512 112,480 32,480    " data-original="#000000" class="active-path" data-old_color="#000000" fill="#FFFFFF"/>
+			<polygon points="0,112 32,112 32,32 112,32 112,0 0,0    " data-original="#000000" class="active-path" data-old_color="#000000" fill="#FFFFFF"/>
+			<rect x="352" y="352" width="32" height="32" data-original="#000000" class="active-path" data-old_color="#000000" fill="#FFFFFF"/>
+			<rect x="242.24" y="352" width="27.424" height="32" data-original="#000000" class="active-path" data-old_color="#000000" fill="#FFFFFF"/>
+			<rect x="297.136" y="352" width="27.424" height="32" data-original="#000000" class="active-path" data-old_color="#000000" fill="#FFFFFF"/>
+			<rect x="187.424" y="352" width="27.424" height="32" data-original="#000000" class="active-path" data-old_color="#000000" fill="#FFFFFF"/>
+			<rect x="128" y="352" width="32" height="32" data-original="#000000" class="active-path" data-old_color="#000000" fill="#FFFFFF"/>
+			<rect x="128" y="242.24" width="32" height="27.424" data-original="#000000" class="active-path" data-old_color="#000000" fill="#FFFFFF"/>
+			<rect x="128" y="187.424" width="32" height="27.424" data-original="#000000" class="active-path" data-old_color="#000000" fill="#FFFFFF"/>
+			<rect x="128" y="297.136" width="32" height="27.424" data-original="#000000" class="active-path" data-old_color="#000000" fill="#FFFFFF"/>
+			<rect x="128" y="128" width="32" height="32" data-original="#000000" class="active-path" data-old_color="#000000" fill="#FFFFFF"/>
+			<rect x="297.136" y="128" width="27.424" height="32" data-original="#000000" class="active-path" data-old_color="#000000" fill="#FFFFFF"/>
+			<rect x="242.24" y="128" width="27.424" height="32" data-original="#000000" class="active-path" data-old_color="#000000" fill="#FFFFFF"/>
+			<rect x="187.424" y="128" width="27.424" height="32" data-original="#000000" class="active-path" data-old_color="#000000" fill="#FFFFFF"/>
+			<rect x="352" y="128" width="32" height="32" data-original="#000000" class="active-path" data-old_color="#000000" fill="#FFFFFF"/>
+			<rect x="352" y="242.24" width="32" height="27.424" data-original="#000000" class="active-path" data-old_color="#000000" fill="#FFFFFF"/>
+			<rect x="352" y="187.424" width="32" height="27.424" data-original="#000000" class="active-path" data-old_color="#000000" fill="#FFFFFF"/>
+			<rect x="352" y="297.136" width="32" height="27.424" data-original="#000000" class="active-path" data-old_color="#000000" fill="#FFFFFF"/>
+		</g>
+	</g>
+</g></g> </svg>

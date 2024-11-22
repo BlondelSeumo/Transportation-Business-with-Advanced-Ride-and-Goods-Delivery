@@ -1,0 +1,34 @@
+{
+    "success": true,
+    "message": "created_instant_ride_successfully",
+    "data":
+    {
+        "id": "068ecb7a-7198-4322-82b2-28c8e1c90f0a",
+        "request_number": "REQ_000002",
+        "is_later": 0,
+        "user_id": 15,
+        "trip_start_time": "5th Aug 09:54 PM",
+        "arrived_at": null,
+        "accepted_at": null,
+        "completed_at": "5th Aug 11:49 PM",
+        "is_driver_started": 0,
+        "is_driver_arrived": 0,
+        "is_trip_start": 0,
+        "is_completed": 1,
+        "is_cancelled": 0,
+        "cancel_method": "0",
+        "payment_opt": "1",
+        "is_paid": 1,
+        "user_rated": 0,
+        "driver_rated": 0,
+        "unit": "0",
+        "zone_type_id": "b0a3a2ce-d248-4767-adea-ae2932731436",
+        "vehicle_type_name": "Mini",
+        "pick_lat": 11.0797,
+        "pick_lng": 76.9997,
+        "drop_lat": 11.41157598,
+        "drop_lng": 76.77196096,
+        "pick_address": "gandhi puram",
+        "drop_address": "saravanm patti"
+    }
+}
